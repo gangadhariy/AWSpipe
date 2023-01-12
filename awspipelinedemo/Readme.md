@@ -6,6 +6,8 @@
  #!/bin/bash
 
 sudo yum -y update
+sudo yum -y install java-1.8.0-openjdk-devel.x86_64
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.342.b07-1.amzn2.0.1.x86_64/
 
 sudo yum -y install ruby
 
@@ -15,13 +17,13 @@ sudo chmod +x ./install
 
 sudo ./install auto
 
-wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.78/bin/apache-tomcat-8.5.78.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.tar.gz
 
 sudo mkdir /opt
 
-tar xf apache-tomcat-8.5.78.tar.gz
+tar xf apache-tomcat-8.5.84.tar.gz
 
-sudo mv apache-tomcat-8.5.78 tomcat
+sudo mv apache-tomcat-8.5.84 tomcat
 
 sudo mv tomcat /opt
 
