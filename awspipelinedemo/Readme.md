@@ -6,7 +6,9 @@
  #!/bin/bash
 
 sudo yum -y update
+
 sudo yum -y install java-1.8.0-openjdk-devel.x86_64
+
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.342.b07-1.amzn2.0.1.x86_64/
 
 sudo yum -y install ruby
