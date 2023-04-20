@@ -19,7 +19,7 @@ sudo chmod +x ./install
 
 sudo ./install auto
 
-wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.88/bin/apache-tomcat-8.5.88.tar.gz
 
 sudo mkdir /opt
 
